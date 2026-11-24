@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+
+# synthesis: libraries are downloaded on first use
+plugins/synthesis/skills/synthesis/resources/lib/
+plugins/synthesis/skills/synthesis/example/*/lib/

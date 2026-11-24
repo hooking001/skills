@@ -1,0 +1,63 @@
+{
+  "name": "hk",
+  "owner": {
+    "name": "hooking001"
+  },
+  "description": "hooking001's public skills for Claude Code and Codex",
+  "plugins": [
+    {
+      "name": "arm-style-trm-typst",
+      "source": "./plugins/arm-style-trm-typst",
+      "description": "ARM-style bilingual Typst manuals with editable projects and final PDFs under doc/.",
+      "version": "0.4.0",
+      "author": {
+        "name": "hooking001"
+      },
+      "license": "MIT AND OFL-1.1",
+      "category": "Productivity",
+      "interface": {
+        "displayName": "ARM Style Manual",
+        "shortDescription": "ARM-style Typst technical manual instructions",
+        "defaultPrompt": [
+          "Use arm-style-manual to write or update this technical manual."
+        ]
+      }
+    },
+    {
+      "name": "synthesis",
+      "source": "./plugins/synthesis",
+      "description": "Portable Linux/macOS RTL projects, Icarus simulation, and Yosys standard-cell synthesis with ASAP7 (default), Nangate45 on request, or custom Liberty libraries.",
+      "version": "0.3.0",
+      "author": {
+        "name": "hooking001"
+      },
+      "license": "MIT",
+      "category": "Development",
+      "interface": {
+        "displayName": "RTL Synthesis",
+        "shortDescription": "RTL simulation and ASAP7/Nangate45 Liberty synthesis",
+        "defaultPrompt": [
+          "Use synthesis to verify and synthesize this RTL with ASAP7."
+        ]
+      }
+    },
+    {
+      "name": "util",
+      "source": "./plugins/util",
+      "description": "One-time utilities, including SSH server registration, interactive authentication, remote commands, and file transfers.",
+      "version": "0.1.0",
+      "author": {
+        "name": "hooking001"
+      },
+      "license": "MIT",
+      "category": "Development",
+      "interface": {
+        "displayName": "Utilities",
+        "shortDescription": "One-time utilities including SSH Connect",
+        "defaultPrompt": [
+          "Use util to show the available one-time utilities."
+        ]
+      }
+    }
+  ]
+}

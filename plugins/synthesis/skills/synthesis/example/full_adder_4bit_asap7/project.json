@@ -1,0 +1,10 @@
+{
+  "pdk": "asap7",
+  "top": "full_adder_4bit",
+  "tb_top": "full_adder_4bit_tb",
+  "liberty": "lib/asap7sc7p5t_28_RVT_TT.lib",
+  "dont_use": [
+    "DFFHQx4_ASAP7_75t_R",
+    "DFFLQx4_ASAP7_75t_R"
+  ]
+}
