@@ -40,24 +40,6 @@
           "Use synthesis to verify and synthesize this RTL with ASAP7."
         ]
       }
-    },
-    {
-      "name": "util",
-      "source": "./plugins/util",
-      "description": "One-time utilities, including SSH server registration, interactive authentication, remote commands, and file transfers.",
-      "version": "0.1.0",
-      "author": {
-        "name": "hooking001"
-      },
-      "license": "MIT",
-      "category": "Development",
-      "interface": {
-        "displayName": "Utilities",
-        "shortDescription": "One-time utilities including SSH Connect",
-        "defaultPrompt": [
-          "Use util to show the available one-time utilities."
-        ]
-      }
     }
   ]
 }
